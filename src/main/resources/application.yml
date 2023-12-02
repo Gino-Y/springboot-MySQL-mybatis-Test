@@ -1,0 +1,7 @@
+spring:
+  datasource: # ?????????HikariCP???
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://47.241.35.150:3306/mybatis
+    username: root
+    password: Kadfgo53254G
+    type: com.alibaba.druid.pool.DruidDataSource # ??????????
