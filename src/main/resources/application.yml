@@ -5,3 +5,7 @@ spring:
     username: root
     password: Kadfgo53254G
     type: com.alibaba.druid.pool.DruidDataSource # ??????????
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl # ??sql??
+    map-underscore-to-camel-case: true # ?????????
